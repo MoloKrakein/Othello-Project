@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class click : MonoBehaviour
 {
+    public Transform tokenObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +15,9 @@ public class click : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnMouseDown() {
+        Instantiate(tokenObject, transform.position, tokenObject.rotation);
     }
 }
