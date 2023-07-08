@@ -7,6 +7,8 @@ public class gameflow : MonoBehaviour
     public Transform boardObject;
     public static string nowTurn = "W";
 
+    public static string ULChange = "N";
+
     // Start is called before the first frame update
     void Start()
     {

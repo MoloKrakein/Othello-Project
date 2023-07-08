@@ -65,7 +65,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7616543932882009298, guid: a817a233f1aa77749b5f07f080f80b70, type: 3}
       propertyPath: m_Name
-      value: Token Chip
+      value: Token Chip B
+      objectReference: {fileID: 0}
+    - target: {fileID: 7616543932882009298, guid: a817a233f1aa77749b5f07f080f80b70, type: 3}
+      propertyPath: m_TagString
+      value: Black
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a817a233f1aa77749b5f07f080f80b70, type: 3}
+--- !u!1 &6449660891633364874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7616543932882009298, guid: a817a233f1aa77749b5f07f080f80b70, type: 3}
+  m_PrefabInstance: {fileID: 3473025398409761624}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &-4329365237661873355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6449660891633364874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8ca9741388be8f4db6e1d2fad564e36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
