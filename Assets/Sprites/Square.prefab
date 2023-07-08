@@ -124,4 +124,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61f5c3a76de785c449b4d49461fbffc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tokenObject: {fileID: 5579755478302491965, guid: a817a233f1aa77749b5f07f080f80b70, type: 3}
+  WtokenObject: {fileID: 5579755478302491965, guid: a817a233f1aa77749b5f07f080f80b70, type: 3}
+  BtokenObject: {fileID: 9033636159311124069, guid: 1a1442d99c84773459c1a84beb49dcb4, type: 3}

@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class click : MonoBehaviour
 {
-    public Transform tokenObject;
+    public Transform WtokenObject;
+    public Transform BtokenObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,13 @@ public class click : MonoBehaviour
     }
 
     private void OnMouseDown() {
-        Instantiate(tokenObject, transform.position, tokenObject.rotation);
+        if(gameflow.nowTurn == "W"){
+            Instantiate(WtokenObject, transform.position, WtokenObject.rotation);
+            gameflow.nowTurn = "B";
+    }
+        else if(gameflow.nowTurn == "B"){
+            Instantiate(BtokenObject, transform.position, BtokenObject.rotation);
+            gameflow.nowTurn = "W";
+    }
     }
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5579755478302491965}
   - component: {fileID: 230172769075847281}
   m_Layer: 0
-  m_Name: Token Chip
+  m_Name: Token Chip W
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
