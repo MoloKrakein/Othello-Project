@@ -45,7 +45,7 @@ public class token : MonoBehaviour
     }
 
     IEnumerator activeDelay(){
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(10);
         GetComponent<CircleCollider2D>().enabled = true;
     }
 
